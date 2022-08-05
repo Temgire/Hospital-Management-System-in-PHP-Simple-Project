@@ -1,0 +1,42 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 35rem;
+    padding: 5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.form h1{
+    border-bottom: 2px solid black;
+    padding-bottom: .5rem;
+}
+
+.form #email, .form #pwd{
+    border: none;
+    padding: .5rem;
+    border-bottom: 1px solid black;
+}
+
+.form #sym{
+    padding: .5rem;
+}
+
+.form #sub{
+    background-color: #003A6A;
+    padding: .3rem 2rem;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+}
+
+.form #sub:hover{
+    background-color: #0069c0;
+}
+
+.form input:focus, .form textarea{
+    outline: none;
+}
